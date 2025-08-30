@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natures Platter Website</title>
+
+    <!-- tailwind and daisyui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Sora font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font style -->
+    <style>
+      * {
+        font-family: "Sora", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      class="container mx-auto bg-gradient-to-b from-[#FFFFFF] to-[#f0ece5]"
+    >
+      <!-- navbar -->
+      <nav class="pt-6 w-[1200px] mx-auto flex items-center justify-between">
+        <div>
+          <img src="./assets/logo-green.png" alt="logo" />
+        </div>
+
+        <div class="flex items-center">
+          <ul class="flex items-center gap-8 text-xl">
+            <li>Product</li>
+            <li>Services</li>
+            <li>Contact us</li>
+            <li>Product</li>
+          </ul>
+          <div class="ml-28 flex items-center gap-3">
+            <button
+              class="py-[10px] px-8 rounded-lg border-2 border-[#179800] text-xl"
+            >
+              Login
+            </button>
+            <button
+              class="py-[10px] text-white px-8 border-2 rounded-lg border-[#179800] bg-[#179800] text-xl"
+            >
+              Register
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <section class="mx-w-[1200px] mx-auto mt-36 flex flex-col items-center">
+        <h1>Freshness You Can Count On, Prices You’ll Love!</h1>
+        <p>
+          Shop your daily essentials at unbeatable prices. From fresh produce to
+          pantry staples, we’ve got you covered every day!
+        </p>
+        <img src="./assets/hero-img.png" alt="" class="max-w-[1000px]" />
+      </section>
+    </header>
+
+    <main class="container mx-auto"></main>
+    <!-- script -->
+    <script src="./script/script.js"></script>
+  </body>
+</html>
