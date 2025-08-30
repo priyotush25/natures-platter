@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Natures Platter Website</title>
 
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- tailwind and daisyui -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -49,12 +58,12 @@
           </ul>
           <div class="ml-28 flex items-center gap-3">
             <button
-              class="py-[10px] px-8 rounded-lg border-2 border-[#179800] text-xl"
+              class="py-[10px] hover:bg-[#179800] cursor-pointer hover:text-white px-8 rounded-lg border-2 border-[#179800] text-xl"
             >
               Login
             </button>
             <button
-              class="py-[10px] text-white px-8 border-2 rounded-lg border-[#179800] bg-[#179800] text-xl"
+              class="py-[10px] text-white cursor-pointer hover:bg-white hover:text-[#179800] px-8 border-2 rounded-lg border-[#179800] bg-[#179800] text-xl"
             >
               Register
             </button>
@@ -304,6 +313,55 @@
         </div>
       </section>
     </main>
+    <footer class="container mx-auto bg-[#179800] lg:p-36 mt-[420px]">
+      <!-- card -->
+      <div
+        class="lg:max-w-[1200px] -mt-96 rounded-xl px-28 py-14 bg-[#EFEBE3] flex flex-col text-center items-center lg:justify-between"
+      >
+        <img src="./assets/fruit-basket.png" alt="" />
+        <div>
+          <h4 class="text-4xl font-semibold mb-5">Get Grocery News!</h4>
+          <p class="text-xl font-medium mb-8">
+            Exclusive training tips, ticks, product deals and more.
+          </p>
+          <input
+            type="text"
+            placeholder="Enter your Email "
+            class="bg-white mb-9 lg:w-96 py-4 pl-4 pr-5 rounded-lg border-none"
+          />
+          <br />
+          <button class="py-2 px-4 bg-green-600 rounded-lg text-white">
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="md:max-w-[1200px] mx-auto mt-36 flex flex-col lg:items-end justify-between p-5"
+      >
+        <div class="space-y-8">
+          <img src="./assets/logo-white.png" alt="" />
+          <p class="lg:w-[426px] font-normal text-[#FFFFFFB2]">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends
+          </p>
+        </div>
+        <div class="text-[#FFFFFFB2] lg:space-y-8 mt-4 mb-3">
+          <p>Product</p>
+          <p>Services</p>
+          <p>Contact us</p>
+        </div>
+        <div class="text-[#FFFFFF]">
+          <p class="mb-5">Follow Us</p>
+          <div class="space-x-8 text-2xl">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- script -->
     <script src="./script/script.js"></script>
   </body>
