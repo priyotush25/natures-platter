@@ -33,12 +33,14 @@
       class="container mx-auto bg-gradient-to-b from-[#FFFFFF] to-[#f0ece5]"
     >
       <!-- navbar -->
-      <nav class="pt-6 w-[1200px] mx-auto flex items-center justify-between">
+      <nav
+        class="pt-6 lg:w-[1200px] p-5 mx-auto flex items-center justify-between"
+      >
         <div>
           <img src="./assets/logo-green.png" alt="logo" />
         </div>
 
-        <div class="flex items-center">
+        <div class="lg:flex items-center hidden">
           <ul class="flex items-center gap-8 text-xl">
             <li>Product</li>
             <li>Services</li>
@@ -60,13 +62,23 @@
         </div>
       </nav>
       <!-- hero section -->
-      <section class="mx-w-[1200px] mx-auto mt-36 flex flex-col items-center">
-        <h1>Freshness You Can Count On, Prices You’ll Love!</h1>
-        <p>
+      <section
+        class="mx-w-[1200px] mx-auto mt-12 md:mt-36 flex flex-col items-center px-5"
+      >
+        <h1 class="text-3xl md:text-5xl font-semibold text-center mb-8">
+          Freshness
+          <span class="text-[#179800]"
+            >You Can<br />
+            Count</span
+          >
+          On, Prices You’ll Love!
+        </h1>
+        <p class="text-center">
           Shop your daily essentials at unbeatable prices. From fresh produce to
-          pantry staples, we’ve got you covered every day!
+          pantry <br />
+          staples, we’ve got you covered every day!
         </p>
-        <img src="./assets/hero-img.png" alt="" class="max-w-[1000px]" />
+        <img src="./assets/hero-img.png" alt="" class="md:max-w-[1000px]" />
       </section>
     </header>
 
